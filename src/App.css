@@ -3,4 +3,33 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  box-sizing: border-box;
+}
+
+.otp-form {
+  background-color: #1e2227;
+  margin: 0 auto;
+  height: 200px;
+  width: fit-content;
+  min-width: 350px;
+  padding: 2rem;
+  border: 1px solid gray;
+  border-radius: 1rem;
+  box-shadow: rgb(123, 123, 123) 0px 7px 29px 0px;
+}
+
+.otp-form__input {
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: white;
+  color: black;
+  border-radius: 0.3rem;
+  margin: 0.5rem;
+}
+
+.spin-button-none::-webkit-inner-spin-button,
+.spin-button-none::-webkit-outer-spin-button {
+  appearance: none;
 }
