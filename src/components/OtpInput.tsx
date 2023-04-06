@@ -49,7 +49,7 @@ const OtpInput = ({ newValue }: Props) => {
 							type="number"
 							className="otp-form__input spin-button-none"
 							onChange={onChangeHandler}
-							value={currOtp[index]}
+							value={currOtp[index] as string}
 							onKeyDown={(e) => handleOnKeyDown(e, index)}
 						/>
 						{index === currOtp.length - 1 ? null : (
