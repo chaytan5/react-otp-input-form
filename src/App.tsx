@@ -15,9 +15,7 @@ function App() {
 	return (
 		<div className="App">
 			<h1>React OTP Input Component</h1>
-			<h4>Version 1</h4>
-			<OtpInput newValue={otp} />
-			<h4>Version 2</h4>
+			<div className="spacer"></div>
 			<OtpInputV2
 				value={otp2}
 				onChange={onChange}
